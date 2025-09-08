@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\MyNovelsBookshelf.Communication\MyNovelsBookshelf.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\MyNovelsBookshelf.Exceptions\MyNovelsBookshelf.Exceptions.csproj" />
+    <ProjectReference Include="..\MyNovelsBookshelf.Domain\MyNovelsBookshelf.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

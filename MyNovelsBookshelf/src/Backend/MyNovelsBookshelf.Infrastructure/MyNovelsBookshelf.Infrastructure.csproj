@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\MyNovelsBookshelf.Communication\MyNovelsBookshelf.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\MyNovelsBookshelf.Exceptions\MyNovelsBookshelf.Exceptions.csproj" />
+    <ProjectReference Include="..\MyNovelsBookshelf.Domain\MyNovelsBookshelf.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
